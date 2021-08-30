@@ -46,27 +46,6 @@ ul {
 
     100%{margin-top: 0;}
 }
-
-.contenedorDos{
-    background-color: white;
-    opacity: 0.9;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.tituloH2{
-    padding: 20px;
-    font-size: 3rem;
-    border: rgb(20, 84, 55) 3px dotted; 
-}
-.parrafo{
-    line-height: 40px;
-}
-
 ul li{
     margin: 0;
     font-size: 36px;
@@ -79,6 +58,7 @@ ul li{
     color: white;
     
 }
+
 
 .contenedor__b{
     width: 100%;
@@ -109,6 +89,28 @@ button{
     font-size: 18px;
     display: inline-block;
 }
+/* seccion dos */
+.contenedorDos{
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.tituloH2{
+    padding: 20px;
+    font-size: 3rem;
+    border: rgb(20, 84, 55) 3px dotted; 
+}
+.parrafo{
+    line-height: 40px;
+}
+
+/* seccion 3 */
 
 .contenedorTres{
     padding: 20px;
@@ -117,6 +119,7 @@ button{
     margin-left: 20%;
 }
 
+/* seccion 4 */
 .contenedorCuatro{
     height: 600px;
     margin: 3%;
@@ -127,7 +130,6 @@ button{
     background-color:white;
     padding: 30px;
 }
-
 
 .tituloComoEmpiezo{
     font-size: 3rem;
@@ -160,6 +162,8 @@ button{
 .aBotonFinal:hover{
     color: white;
 }
+
+/* seccion 5 */
 
 .contenedorCinco{
     height: 650px;
@@ -199,4 +203,135 @@ footer{
     font-size: 0.7rem;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 767px){
+.textoBienvenida{
+    font-size: 10px;
+}
+
+ul li{
+    margin: 0;
+    font-size: 16px;
+    
+}
+.contenedor__a{
+    grid-column: 1/12;
+    padding-bottom: 40px;
+    color: white;
+    
+}
+button{
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+.contenedor__b{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    grid-column: 1/13;
+    margin-top: -15%;
+}
+.contenedorDos{
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.tituloH2{
+    padding: 20px;
+    font-size: 1.5rem;
+    border: rgb(20, 84, 55) 3px dotted; 
+}
+.parrafo{
+    line-height: 20px;
+}
+
+.contenedorTres{
+margin-left: 2px;
+    width: 100%;
+
+}
+
+.contenedorCuatro{
+    height: 900px;
+    margin: 3%;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 20px;
+}
+
+.tituloComoEmpiezo{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.card{
+    padding: 20px;
+    margin: 2%;
+    border: rgb(20, 84, 55) 3px dotted;   
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonFinal{
+    margin-top: 5%;
+    width: 30%;
+    display: flex;
+    background-color: rgb(20, 84, 55);
+    justify-content: center;
+    align-self: center;
+}
+
+.contenedorCinco{
+    height: 900px;
+    margin: 3%;
+    text-align: center;
+    color: black;
+    background-color:white;
+    padding: 20px;
+
+}
+.tituloSobreMi{
+    font-style: 1.5rem;
+
+}
+
+.contenedorCinco p{
+    line-height: 20px;
+}
+
+
+.miFoto{
+width: 130px;
+height: 130px;
+border-radius: 100%;
+}
+
+i{
+    font-size: 2rem;
+    padding: 20px;
+    color: tomato;
+}
+
 }
