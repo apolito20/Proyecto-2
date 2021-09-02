@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 body{
-    background-color: #616161;
+    background-color: #BDBDBD;
     font-family: 'Poppins', sans-serif;
 }
 .contenedor {
@@ -274,7 +274,8 @@ button{
     text-align: center;
 }
 .parrafo{
-    line-height: 20px;
+    line-height: 30px;
+    padding: 20px;
 }
 
 .contenedorTres{
