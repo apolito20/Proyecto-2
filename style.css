@@ -205,7 +205,20 @@ footer{
 }
 
 @media only screen and (max-width: 767px){
-.textoBienvenida{
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        width: 90%;
+        max-width: 700px;
+        height: 600px;
+        margin: auto;
+        gap: 10px;
+        overflow: hidden;
+    }
+    
+
+    .textoBienvenida{
     font-size: 10px;
 }
 
@@ -213,11 +226,17 @@ ul li{
     margin: 0;
     font-size: 16px;
     
+
+}
+
+.contenedor{
+
 }
 .contenedor__a{
     grid-column: 1/12;
     padding-bottom: 40px;
     color: white;
+    
     
 }
 button{
